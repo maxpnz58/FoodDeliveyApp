@@ -29,6 +29,8 @@
 		356950B22C597A340049B5F8 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950B12C597A340049B5F8 /* UIColor+Extention.swift */; };
 		356950B42C597C6C0049B5F8 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950B32C597C6C0049B5F8 /* AppColors.swift */; };
 		356950B92C5980070049B5F8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950B82C5980070049B5F8 /* Coordinator.swift */; };
+		356950BB2C5985A70049B5F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950BA2C5985A70049B5F8 /* AppCoordinator.swift */; };
+		356950BD2C5987270049B5F8 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		356950B12C597A340049B5F8 /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		356950B32C597C6C0049B5F8 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		356950B82C5980070049B5F8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		356950BA2C5985A70049B5F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				356950B82C5980070049B5F8 /* Coordinator.swift */,
+				356950BA2C5985A70049B5F8 /* AppCoordinator.swift */,
+				356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 				3569507E2C5846500049B5F8 /* AppDelegate.swift in Sources */,
 				356950B22C597A340049B5F8 /* UIColor+Extention.swift in Sources */,
 				356950B42C597C6C0049B5F8 /* AppColors.swift in Sources */,
+				356950BB2C5985A70049B5F8 /* AppCoordinator.swift in Sources */,
 				356950802C5846500049B5F8 /* SceneDelegate.swift in Sources */,
 				356950B02C5867AB0049B5F8 /* UIFont+Extention.swift in Sources */,
 				356950B92C5980070049B5F8 /* Coordinator.swift in Sources */,
+				356950BD2C5987270049B5F8 /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
