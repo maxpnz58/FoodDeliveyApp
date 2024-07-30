@@ -31,6 +31,11 @@
 		356950B92C5980070049B5F8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950B82C5980070049B5F8 /* Coordinator.swift */; };
 		356950BB2C5985A70049B5F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950BA2C5985A70049B5F8 /* AppCoordinator.swift */; };
 		356950BD2C5987270049B5F8 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */; };
+		356950BF2C5991D40049B5F8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950BE2C5991D30049B5F8 /* HomeCoordinator.swift */; };
+		356950C12C59923A0049B5F8 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950C02C59923A0049B5F8 /* OrderCoordinator.swift */; };
+		356950C32C59929A0049B5F8 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950C22C59929A0049B5F8 /* ListCoordinator.swift */; };
+		356950C52C5992B60049B5F8 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950C42C5992B60049B5F8 /* ProfileCoordinator.swift */; };
+		356950C72C5992F30049B5F8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950C62C5992F30049B5F8 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		356950B82C5980070049B5F8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		356950BA2C5985A70049B5F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		356950BE2C5991D30049B5F8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		356950C02C59923A0049B5F8 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		356950C22C59929A0049B5F8 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		356950C42C5992B60049B5F8 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		356950C62C5992F30049B5F8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +176,10 @@
 				356950B82C5980070049B5F8 /* Coordinator.swift */,
 				356950BA2C5985A70049B5F8 /* AppCoordinator.swift */,
 				356950BC2C5987270049B5F8 /* OnBoardingCoordinator.swift */,
+				356950BE2C5991D30049B5F8 /* HomeCoordinator.swift */,
+				356950C02C59923A0049B5F8 /* OrderCoordinator.swift */,
+				356950C22C59929A0049B5F8 /* ListCoordinator.swift */,
+				356950C42C5992B60049B5F8 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -173,6 +187,7 @@
 		356950B72C597FBE0049B5F8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				356950C62C5992F30049B5F8 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 				356950B42C597C6C0049B5F8 /* AppColors.swift in Sources */,
 				356950BB2C5985A70049B5F8 /* AppCoordinator.swift in Sources */,
 				356950802C5846500049B5F8 /* SceneDelegate.swift in Sources */,
+				356950C12C59923A0049B5F8 /* OrderCoordinator.swift in Sources */,
 				356950B02C5867AB0049B5F8 /* UIFont+Extention.swift in Sources */,
+				356950C32C59929A0049B5F8 /* ListCoordinator.swift in Sources */,
+				356950BF2C5991D40049B5F8 /* HomeCoordinator.swift in Sources */,
+				356950C52C5992B60049B5F8 /* ProfileCoordinator.swift in Sources */,
+				356950C72C5992F30049B5F8 /* TabBarController.swift in Sources */,
 				356950B92C5980070049B5F8 /* Coordinator.swift in Sources */,
 				356950BD2C5987270049B5F8 /* OnBoardingCoordinator.swift in Sources */,
 			);
