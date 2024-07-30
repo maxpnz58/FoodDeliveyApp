@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         ])
         
         
-        label.font = .systemFont(ofSize: 40, weight: UIFont.Weight(rawValue: 20))
+        label.font = .Roboto.black.size(of: 40)
         view.backgroundColor = .red
         
         // Do any additional setup after loading the view.
