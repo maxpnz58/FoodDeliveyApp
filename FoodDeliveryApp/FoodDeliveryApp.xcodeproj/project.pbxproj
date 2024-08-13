@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3564C6802C6C05040025E5E8 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564C67F2C6C05040025E5E8 /* OnboardingViewController.swift */; };
+		3564C6822C6C054E0025E5E8 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564C6812C6C054E0025E5E8 /* OnboardingViewPresenter.swift */; };
 		3569507E2C5846500049B5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569507D2C5846500049B5F8 /* AppDelegate.swift */; };
 		356950802C5846500049B5F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569507F2C5846500049B5F8 /* SceneDelegate.swift */; };
 		356950822C5846500049B5F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356950812C5846500049B5F8 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3564C67F2C6C05040025E5E8 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		3564C6812C6C054E0025E5E8 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
 		3569507A2C5846500049B5F8 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3569507D2C5846500049B5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3569507F2C5846500049B5F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3564C67D2C6C04A80025E5E8 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				3564C67E2C6C04CF0025E5E8 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		3564C67E2C6C04CF0025E5E8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3564C67F2C6C05040025E5E8 /* OnboardingViewController.swift */,
+				3564C6812C6C054E0025E5E8 /* OnboardingViewPresenter.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		356950712C5846500049B5F8 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +123,7 @@
 		3569507C2C5846500049B5F8 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				3564C67D2C6C04A80025E5E8 /* UILayer */,
 				356950B52C597F870049B5F8 /* NavigationLayer */,
 				3569507D2C5846500049B5F8 /* AppDelegate.swift */,
 				356950912C58646B0049B5F8 /* Resources */,
@@ -282,12 +304,14 @@
 				356950BB2C5985A70049B5F8 /* AppCoordinator.swift in Sources */,
 				356950802C5846500049B5F8 /* SceneDelegate.swift in Sources */,
 				356950C12C59923A0049B5F8 /* OrderCoordinator.swift in Sources */,
+				3564C6802C6C05040025E5E8 /* OnboardingViewController.swift in Sources */,
 				356950B02C5867AB0049B5F8 /* UIFont+Extention.swift in Sources */,
 				356950C32C59929A0049B5F8 /* ListCoordinator.swift in Sources */,
 				356950BF2C5991D40049B5F8 /* HomeCoordinator.swift in Sources */,
 				356950C52C5992B60049B5F8 /* ProfileCoordinator.swift in Sources */,
 				356950C72C5992F30049B5F8 /* TabBarController.swift in Sources */,
 				356950B92C5980070049B5F8 /* Coordinator.swift in Sources */,
+				3564C6822C6C054E0025E5E8 /* OnboardingViewPresenter.swift in Sources */,
 				356950BD2C5987270049B5F8 /* OnBoardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
